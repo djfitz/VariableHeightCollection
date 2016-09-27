@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CubeListCollectionCellID" id="gTV-IL-0wX" customClass="CubeListCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="51"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="51"/>
+                <subviews>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VS6-Rg-tKQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="CubeName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2iG-KS-jUE" userLabel="CubenameLabel">
+                        <rect key="frame" x="0.0" y="0.0" width="86" height="21"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="600" id="sjp-iZ-aBm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" text="Username" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGd-Mu-YRa" userLabel="UsernameLabel">
+                        <rect key="frame" x="0.0" y="26" width="79" height="21"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="ayO-21-rcl"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="600" id="yth-Oc-cPl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="2iG-KS-jUE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="BWD-FC-owU"/>
+                <constraint firstItem="2iG-KS-jUE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="YxJ-WR-IQd"/>
+                <constraint firstAttribute="bottom" secondItem="aGd-Mu-YRa" secondAttribute="bottom" constant="4" id="ZXx-es-cl5"/>
+                <constraint firstItem="aGd-Mu-YRa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="lU7-fh-mgo"/>
+                <constraint firstItem="aGd-Mu-YRa" firstAttribute="top" secondItem="2iG-KS-jUE" secondAttribute="bottom" constant="5" id="oxo-Rf-P3i"/>
+            </constraints>
+            <size key="customSize" width="1147" height="117"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="ZXx-es-cl5"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="cubenameLabel" destination="2iG-KS-jUE" id="zhx-Wv-Jcq"/>
+                <outlet property="cubenameWidthLabelConstraint" destination="sjp-iZ-aBm" id="5qR-wG-wRY"/>
+                <outlet property="usernameLabel" destination="aGd-Mu-YRa" id="63S-Vd-dI0"/>
+                <outlet property="usernameLabelWidthConstraint" destination="yth-Oc-cPl" id="NxP-ka-s8N"/>
+            </connections>
+            <point key="canvasLocation" x="650" y="132.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

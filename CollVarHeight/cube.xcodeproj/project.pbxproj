@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BF269A31D5D2C6800EBD04B /* SBCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF269A21D5D2C6800EBD04B /* SBCollectionViewCell.m */; };
+		F60E06441D51651400646C99 /* CubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60E06431D51651400646C99 /* CubeViewController.m */; };
+		F630D7091D4FCFA700F65427 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F630D7081D4FCFA700F65427 /* SignUpViewController.m */; };
+		F630D70C1D4FD70800F65427 /* CubeListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F630D70B1D4FD70800F65427 /* CubeListCollectionViewController.m */; };
+		F630D70F1D4FD7C000F65427 /* HomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F630D70E1D4FD7C000F65427 /* HomeTabBarController.m */; };
+		F6629BB61D42CCF500BD04FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6629BB51D42CCF500BD04FE /* main.m */; };
+		F6629BB91D42CCF500BD04FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6629BB81D42CCF500BD04FE /* AppDelegate.m */; };
+		F6629BBF1D42CCF500BD04FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6629BBD1D42CCF500BD04FE /* Main.storyboard */; };
+		F6629BC11D42CCF500BD04FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6629BC01D42CCF500BD04FE /* Assets.xcassets */; };
+		F6629BC41D42CCF500BD04FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6629BC21D42CCF500BD04FE /* LaunchScreen.storyboard */; };
+		F6629BCF1D42CCF500BD04FE /* cubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6629BCE1D42CCF500BD04FE /* cubeTests.m */; };
+		F6629BDA1D42CCF500BD04FE /* cubeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6629BD91D42CCF500BD04FE /* cubeUITests.m */; };
+		F6660DFC1D52C45F0083F852 /* CubeListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6660DFA1D52C45F0083F852 /* CubeListCollectionViewCell.m */; };
+		F6660DFD1D52C45F0083F852 /* CubeListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6660DFB1D52C45F0083F852 /* CubeListCollectionViewCell.xib */; };
+		F6F2528D1D42D96E00B569CC /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F2528C1D42D96E00B569CC /* WelcomeViewController.m */; };
+		F6F252901D42EF3E00B569CC /* SignInVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F2528F1D42EF3E00B569CC /* SignInVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6629BCB1D42CCF500BD04FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6629BA91D42CCF500BD04FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6629BB01D42CCF500BD04FE;
+			remoteInfo = cube;
+		};
+		F6629BD61D42CCF500BD04FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6629BA91D42CCF500BD04FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6629BB01D42CCF500BD04FE;
+			remoteInfo = cube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6F252871D42CD6D00B569CC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6BF269A11D5D2C6800EBD04B /* SBCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBCollectionViewCell.h; path = Source/ViewControllers/CubeHome/CubeListCollectionCells/SBCollectionViewCell.h; sourceTree = "<group>"; };
+		6BF269A21D5D2C6800EBD04B /* SBCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBCollectionViewCell.m; path = Source/ViewControllers/CubeHome/CubeListCollectionCells/SBCollectionViewCell.m; sourceTree = "<group>"; };
+		F60E06421D51651400646C99 /* CubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CubeViewController.h; path = Source/ViewControllers/CubeViewController.h; sourceTree = "<group>"; };
+		F60E06431D51651400646C99 /* CubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CubeViewController.m; path = Source/ViewControllers/CubeViewController.m; sourceTree = "<group>"; };
+		F630D7071D4FCFA700F65427 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = Source/ViewControllers/SignUpViewController.h; sourceTree = "<group>"; };
+		F630D7081D4FCFA700F65427 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = Source/ViewControllers/SignUpViewController.m; sourceTree = "<group>"; };
+		F630D70A1D4FD70800F65427 /* CubeListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CubeListCollectionViewController.h; path = Source/ViewControllers/CubeListCollectionViewController.h; sourceTree = "<group>"; };
+		F630D70B1D4FD70800F65427 /* CubeListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CubeListCollectionViewController.m; path = Source/ViewControllers/CubeListCollectionViewController.m; sourceTree = "<group>"; };
+		F630D70D1D4FD7C000F65427 /* HomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeTabBarController.h; path = Source/ViewControllers/HomeTabBarController.h; sourceTree = "<group>"; };
+		F630D70E1D4FD7C000F65427 /* HomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeTabBarController.m; path = Source/ViewControllers/HomeTabBarController.m; sourceTree = "<group>"; };
+		F6629BB11D42CCF500BD04FE /* cube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6629BB51D42CCF500BD04FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6629BB71D42CCF500BD04FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6629BB81D42CCF500BD04FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6629BBE1D42CCF500BD04FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6629BC01D42CCF500BD04FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6629BC31D42CCF500BD04FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6629BC51D42CCF500BD04FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6629BCA1D42CCF500BD04FE /* cubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6629BCE1D42CCF500BD04FE /* cubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cubeTests.m; sourceTree = "<group>"; };
+		F6629BD01D42CCF500BD04FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6629BD51D42CCF500BD04FE /* cubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6629BD91D42CCF500BD04FE /* cubeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cubeUITests.m; sourceTree = "<group>"; };
+		F6629BDB1D42CCF500BD04FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6660DF91D52C45F0083F852 /* CubeListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CubeListCollectionViewCell.h; path = Source/ViewControllers/CubeHome/CubeListCollectionCells/CubeListCollectionViewCell.h; sourceTree = "<group>"; };
+		F6660DFA1D52C45F0083F852 /* CubeListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CubeListCollectionViewCell.m; path = Source/ViewControllers/CubeHome/CubeListCollectionCells/CubeListCollectionViewCell.m; sourceTree = "<group>"; };
+		F6660DFB1D52C45F0083F852 /* CubeListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CubeListCollectionViewCell.xib; path = Source/ViewControllers/CubeHome/CubeListCollectionCells/CubeListCollectionViewCell.xib; sourceTree = "<group>"; };
+		F6F2528B1D42D96E00B569CC /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeViewController.h; path = Source/ViewControllers/WelcomeViewController.h; sourceTree = "<group>"; };
+		F6F2528C1D42D96E00B569CC /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeViewController.m; path = Source/ViewControllers/WelcomeViewController.m; sourceTree = "<group>"; };
+		F6F2528E1D42EF3E00B569CC /* SignInVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInVC.h; path = Source/ViewControllers/SignInVC.h; sourceTree = "<group>"; };
+		F6F2528F1D42EF3E00B569CC /* SignInVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignInVC.m; path = Source/ViewControllers/SignInVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6629BAE1D42CCF500BD04FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6629BC71D42CCF500BD04FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6629BD21D42CCF500BD04FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6629BA81D42CCF500BD04FE = {
+			isa = PBXGroup;
+			children = (
+				F6629BB31D42CCF500BD04FE /* cube */,
+				F6629BCD1D42CCF500BD04FE /* cubeTests */,
+				F6629BD81D42CCF500BD04FE /* cubeUITests */,
+				F6629BB21D42CCF500BD04FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6629BB21D42CCF500BD04FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6629BB11D42CCF500BD04FE /* cube.app */,
+				F6629BCA1D42CCF500BD04FE /* cubeTests.xctest */,
+				F6629BD51D42CCF500BD04FE /* cubeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6629BB31D42CCF500BD04FE /* cube */ = {
+			isa = PBXGroup;
+			children = (
+				F6F252891D42D91B00B569CC /* Source */,
+				F6F252841D42CD6300B569CC /* Frameworks */,
+				F6629BB71D42CCF500BD04FE /* AppDelegate.h */,
+				F6629BB81D42CCF500BD04FE /* AppDelegate.m */,
+				F6629BBD1D42CCF500BD04FE /* Main.storyboard */,
+				F6629BC01D42CCF500BD04FE /* Assets.xcassets */,
+				F6629BC21D42CCF500BD04FE /* LaunchScreen.storyboard */,
+				F6629BC51D42CCF500BD04FE /* Info.plist */,
+				F6629BB41D42CCF500BD04FE /* Supporting Files */,
+			);
+			path = cube;
+			sourceTree = "<group>";
+		};
+		F6629BB41D42CCF500BD04FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6629BB51D42CCF500BD04FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6629BCD1D42CCF500BD04FE /* cubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6629BCE1D42CCF500BD04FE /* cubeTests.m */,
+				F6629BD01D42CCF500BD04FE /* Info.plist */,
+			);
+			path = cubeTests;
+			sourceTree = "<group>";
+		};
+		F6629BD81D42CCF500BD04FE /* cubeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6629BD91D42CCF500BD04FE /* cubeUITests.m */,
+				F6629BDB1D42CCF500BD04FE /* Info.plist */,
+			);
+			path = cubeUITests;
+			sourceTree = "<group>";
+		};
+		F6660DF21D52B0860083F852 /* CubeListCollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				F6660DF91D52C45F0083F852 /* CubeListCollectionViewCell.h */,
+				F6660DFA1D52C45F0083F852 /* CubeListCollectionViewCell.m */,
+				F6660DFB1D52C45F0083F852 /* CubeListCollectionViewCell.xib */,
+				6BF269A11D5D2C6800EBD04B /* SBCollectionViewCell.h */,
+				6BF269A21D5D2C6800EBD04B /* SBCollectionViewCell.m */,
+			);
+			name = CubeListCollectionViews;
+			sourceTree = "<group>";
+		};
+		F6F252841D42CD6300B569CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6F252881D42D8D400B569CC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F6660DF21D52B0860083F852 /* CubeListCollectionViews */,
+				F6F2528B1D42D96E00B569CC /* WelcomeViewController.h */,
+				F6F2528C1D42D96E00B569CC /* WelcomeViewController.m */,
+				F6F2528E1D42EF3E00B569CC /* SignInVC.h */,
+				F6F2528F1D42EF3E00B569CC /* SignInVC.m */,
+				F630D7071D4FCFA700F65427 /* SignUpViewController.h */,
+				F630D7081D4FCFA700F65427 /* SignUpViewController.m */,
+				F630D70A1D4FD70800F65427 /* CubeListCollectionViewController.h */,
+				F630D70B1D4FD70800F65427 /* CubeListCollectionViewController.m */,
+				F630D70D1D4FD7C000F65427 /* HomeTabBarController.h */,
+				F630D70E1D4FD7C000F65427 /* HomeTabBarController.m */,
+				F60E06421D51651400646C99 /* CubeViewController.h */,
+				F60E06431D51651400646C99 /* CubeViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F6F252891D42D91B00B569CC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F6F252881D42D8D400B569CC /* View Controllers */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6629BB01D42CCF500BD04FE /* cube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6629BDE1D42CCF500BD04FE /* Build configuration list for PBXNativeTarget "cube" */;
+			buildPhases = (
+				F6629BAD1D42CCF500BD04FE /* Sources */,
+				F6629BAE1D42CCF500BD04FE /* Frameworks */,
+				F6629BAF1D42CCF500BD04FE /* Resources */,
+				F6F252871D42CD6D00B569CC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cube;
+			productName = cube;
+			productReference = F6629BB11D42CCF500BD04FE /* cube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6629BC91D42CCF500BD04FE /* cubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6629BE11D42CCF500BD04FE /* Build configuration list for PBXNativeTarget "cubeTests" */;
+			buildPhases = (
+				F6629BC61D42CCF500BD04FE /* Sources */,
+				F6629BC71D42CCF500BD04FE /* Frameworks */,
+				F6629BC81D42CCF500BD04FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6629BCC1D42CCF500BD04FE /* PBXTargetDependency */,
+			);
+			name = cubeTests;
+			productName = cubeTests;
+			productReference = F6629BCA1D42CCF500BD04FE /* cubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6629BD41D42CCF500BD04FE /* cubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6629BE41D42CCF500BD04FE /* Build configuration list for PBXNativeTarget "cubeUITests" */;
+			buildPhases = (
+				F6629BD11D42CCF500BD04FE /* Sources */,
+				F6629BD21D42CCF500BD04FE /* Frameworks */,
+				F6629BD31D42CCF500BD04FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6629BD71D42CCF500BD04FE /* PBXTargetDependency */,
+			);
+			name = cubeUITests;
+			productName = cubeUITests;
+			productReference = F6629BD51D42CCF500BD04FE /* cubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6629BA91D42CCF500BD04FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Doug Hill";
+				TargetAttributes = {
+					F6629BB01D42CCF500BD04FE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F6629BC91D42CCF500BD04FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F6629BB01D42CCF500BD04FE;
+					};
+					F6629BD41D42CCF500BD04FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F6629BB01D42CCF500BD04FE;
+					};
+				};
+			};
+			buildConfigurationList = F6629BAC1D42CCF500BD04FE /* Build configuration list for PBXProject "cube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6629BA81D42CCF500BD04FE;
+			productRefGroup = F6629BB21D42CCF500BD04FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6629BB01D42CCF500BD04FE /* cube */,
+				F6629BC91D42CCF500BD04FE /* cubeTests */,
+				F6629BD41D42CCF500BD04FE /* cubeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6629BAF1D42CCF500BD04FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6629BC41D42CCF500BD04FE /* LaunchScreen.storyboard in Resources */,
+				F6660DFD1D52C45F0083F852 /* CubeListCollectionViewCell.xib in Resources */,
+				F6629BC11D42CCF500BD04FE /* Assets.xcassets in Resources */,
+				F6629BBF1D42CCF500BD04FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6629BC81D42CCF500BD04FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6629BD31D42CCF500BD04FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6629BAD1D42CCF500BD04FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F2528D1D42D96E00B569CC /* WelcomeViewController.m in Sources */,
+				F60E06441D51651400646C99 /* CubeViewController.m in Sources */,
+				F630D70F1D4FD7C000F65427 /* HomeTabBarController.m in Sources */,
+				F630D7091D4FCFA700F65427 /* SignUpViewController.m in Sources */,
+				F6F252901D42EF3E00B569CC /* SignInVC.m in Sources */,
+				F6660DFC1D52C45F0083F852 /* CubeListCollectionViewCell.m in Sources */,
+				F6629BB91D42CCF500BD04FE /* AppDelegate.m in Sources */,
+				6BF269A31D5D2C6800EBD04B /* SBCollectionViewCell.m in Sources */,
+				F6629BB61D42CCF500BD04FE /* main.m in Sources */,
+				F630D70C1D4FD70800F65427 /* CubeListCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6629BC61D42CCF500BD04FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6629BCF1D42CCF500BD04FE /* cubeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6629BD11D42CCF500BD04FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6629BDA1D42CCF500BD04FE /* cubeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6629BCC1D42CCF500BD04FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6629BB01D42CCF500BD04FE /* cube */;
+			targetProxy = F6629BCB1D42CCF500BD04FE /* PBXContainerItemProxy */;
+		};
+		F6629BD71D42CCF500BD04FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6629BB01D42CCF500BD04FE /* cube */;
+			targetProxy = F6629BD61D42CCF500BD04FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6629BBD1D42CCF500BD04FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6629BBE1D42CCF500BD04FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6629BC21D42CCF500BD04FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6629BC31D42CCF500BD04FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6629BDC1D42CCF500BD04FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6629BDD1D42CCF500BD04FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6629BDF1D42CCF500BD04FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cube",
+					"$(PROJECT_DIR)/cube/Frameworks",
+				);
+				INFOPLIST_FILE = cube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anaplan.cube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6629BE01D42CCF500BD04FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cube",
+					"$(PROJECT_DIR)/cube/Frameworks",
+				);
+				INFOPLIST_FILE = cube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anaplan.cube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6629BE21D42CCF500BD04FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anaplan.cubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cube.app/cube";
+			};
+			name = Debug;
+		};
+		F6629BE31D42CCF500BD04FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anaplan.cubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cube.app/cube";
+			};
+			name = Release;
+		};
+		F6629BE51D42CCF500BD04FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cubeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anaplan.cubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cube;
+			};
+			name = Debug;
+		};
+		F6629BE61D42CCF500BD04FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cubeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anaplan.cubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cube;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6629BAC1D42CCF500BD04FE /* Build configuration list for PBXProject "cube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6629BDC1D42CCF500BD04FE /* Debug */,
+				F6629BDD1D42CCF500BD04FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6629BDE1D42CCF500BD04FE /* Build configuration list for PBXNativeTarget "cube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6629BDF1D42CCF500BD04FE /* Debug */,
+				F6629BE01D42CCF500BD04FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6629BE11D42CCF500BD04FE /* Build configuration list for PBXNativeTarget "cubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6629BE21D42CCF500BD04FE /* Debug */,
+				F6629BE31D42CCF500BD04FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6629BE41D42CCF500BD04FE /* Build configuration list for PBXNativeTarget "cubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6629BE51D42CCF500BD04FE /* Debug */,
+				F6629BE61D42CCF500BD04FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6629BA91D42CCF500BD04FE /* Project object */;
+}
