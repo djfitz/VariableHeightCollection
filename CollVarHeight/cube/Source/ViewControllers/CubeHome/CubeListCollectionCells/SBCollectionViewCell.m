@@ -13,6 +13,8 @@
 
 - (void) awakeFromNib
 {
+	[super awakeFromNib];
+
     self.translatesAutoresizingMaskIntoConstraints = NO;
 
     [self addObserver:self forKeyPath:@"cellWidth" options:NSKeyValueObservingOptionNew context:nil];

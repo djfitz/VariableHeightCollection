@@ -32,6 +32,12 @@ const NSString *kCubeListCellID = @"CubeListCollectionCellID";
     self.navigationController.navigationBarHidden = YES;
     self.navigationController.toolbarHidden = YES;
 
+    UICollectionViewFlowLayout *flowLayout = (UICollectionViewFlowLayout*)self.collectionView.collectionViewLayout;
+
+    CGFloat newWidth = self.collectionView.bounds.size.width / 3 - 5;
+    flowLayout.estimatedItemSize = CGSizeMake(newWidth, 50);
+    flowLayout.itemSize = CGSizeMake(newWidth, 50);
+
     [self.collectionView registerNib:[UINib nibWithNibName:@"CubeListCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:(NSString*)kCubeListCellID];
 }
 
@@ -46,17 +52,17 @@ const NSString *kCubeListCellID = @"CubeListCollectionCellID";
 
 - (void) traitCollectionDidChange:(UITraitCollection *)previousTraitCollection
 {
-    NSLog(@"\n\n|-|-|-|-|}}}} traitCollectionDidChange\nPrevious Traits:\n%@\nCurrent Traits:\n%@", previousTraitCollection, self.traitCollection);
+    //NSLog(@"\n\n|-|-|-|-|}}}} traitCollectionDidChange\nPrevious Traits:\n%@\nCurrent Traits:\n%@", previousTraitCollection, self.traitCollection);
 
     UICollectionViewFlowLayout *flowLayout = (UICollectionViewFlowLayout*)self.collectionView.collectionViewLayout;
 
-    CGFloat newWidth = self.collectionView.bounds.size.width / 2;
-    flowLayout.estimatedItemSize = CGSizeMake(newWidth, 46);
-    flowLayout.itemSize = CGSizeZero;
+    CGFloat newWidth = self.collectionView.bounds.size.width / 3 - 5;
+    flowLayout.estimatedItemSize = CGSizeMake(newWidth, 50);
+    flowLayout.itemSize = CGSizeMake(newWidth, 50);
 
-    [self.collectionView.collectionViewLayout invalidateLayout];
+//    [self.collectionView.collectionViewLayout invalidateLayout];
 
-    [self.collectionView reloadData];
+    // [self.collectionView reloadData];
 }
 
 #pragma mark - Collection View
@@ -82,7 +88,7 @@ const NSString *kCubeListCellID = @"CubeListCollectionCellID";
 {
     UICollectionViewCell *retVal = [collectionView dequeueReusableCellWithReuseIdentifier:(NSString*)kCubeListCellID forIndexPath:indexPath];
 
-    NSLog(@"<<< cellForItemAtIndexPath: Cell Size = %0.2lf, %0.2lf", retVal.bounds.size.width, retVal.bounds.size.height);
+//    NSLog(@"<<< cellForItemAtIndexPath: Cell Size = %0.2lf, %0.2lf", retVal.bounds.size.width, retVal.bounds.size.height);
 
     if( retVal )
     {
@@ -96,6 +102,10 @@ const NSString *kCubeListCellID = @"CubeListCollectionCellID";
             cubeCell.cubeNameLabel.text = [NSString stringWithFormat:@"%ld, %ld Nm Nm Nm Az Co Ak Mt Mn Ct Oh", (long)indexPath.section, (long)indexPath.row];
 
         cubeCell.usernameLabel.text = @"I couldn't be more excited be more excited be more excited be more excited. I couldn't be more excited be more excited be more excited be more excited.";
+
+		CGRect fr = cubeCell.frame;
+		fr.size.width = cubeCell.cellWidth;
+		cubeCell.frame = fr;
     }
     else
         NSLog(@"Couldn't load the collection view cell for the home cube list. App will probably crash now.");
@@ -107,13 +117,13 @@ const NSString *kCubeListCellID = @"CubeListCollectionCellID";
 {
     UICollectionViewCell *retVal = [collectionView dequeueReusableCellWithReuseIdentifier:(NSString*)kCubeListCellID forIndexPath:indexPath];
 
-    NSLog(@"<<< cellForItemAtIndexPath: Cell Size = %0.2lf, %0.2lf", retVal.bounds.size.width, retVal.bounds.size.height);
+//    NSLog(@"<<< cellForItemAtIndexPath: Cell Size = %0.2lf, %0.2lf", retVal.bounds.size.width, retVal.bounds.size.height);
 
     if( retVal )
     {
         CubeListCollectionViewCell *cubeCell = (CubeListCollectionViewCell*)retVal;
 
-        cubeCell.cellWidth = self.collectionView.bounds.size.width / 2;
+        cubeCell.cellWidth = self.collectionView.bounds.size.width / 3 - 5;
 
         if( indexPath.row == 0 )
             cubeCell.cubenameLabel.text = [NSString stringWithFormat:@"•• %ld, %ld Nm Nm Nm Az Co Ak Mt Mn Ct Oh", (long)indexPath.section, (long)indexPath.row];
